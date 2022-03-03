@@ -1,0 +1,125 @@
+
+*{
+    margin: 0px;
+}
+
+h1 {
+    font: bold 22px Papyrus, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font: bold 19px Papyrus, sans-serif;
+    text-align: justify;
+}
+
+p {
+    font: bold 15px  Papyrus, sans-serif;
+    text-align:justify;
+}
+
+header, section, footer, aside, nav, article, figure, figcaption, hgroup {
+    display: block;
+}
+
+body {
+    text-align: center;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+#group-elements{
+    margin: 15px auto;
+    text-align: left;
+    width: 960px;
+}
+
+#header-title {
+    background: #DDDDDD;
+    border: 1px solid #524d4da8;
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    -moz-border-radius: 20px / 10px;
+    -webkit-border-radius: 20px / 10px;
+    border-radius: 20px / 10px;
+    -moz-box-shadow: rgb(150,150,150) 5px 5px 10px;
+    -webkit-box-shadow: rgb(150,150,150) 5px 5px 10px;
+    box-shadow: rgb(150,150,150) 5px 5px 10px;
+    background: -webkit-radial-gradient(center,circle,#FFFFFF 0%, #f1e863 200%);
+    background: -moz-radial-gradient(center,circle,#FFFFFF 0%, #f1e863 200%);
+    transform: scale(1, 1.1) skew(6deg);
+    transition: -webkit-transform 0.5s ease-in-out 0.5s;
+}
+#header-title:hover{
+    transform: rotate(2deg);
+}
+#span-title {
+    font: bold 45px Papyrus, sans-serif;
+    text-shadow: rgba(236, 128, 5, 0.815) 3px 3px 5px;
+    color: hsla(0, 79%, 27%, 0.712);
+}
+
+#menu {
+        background: #CCCCCC;
+        border: 1px solid #000000;
+        padding: 5px 15px;
+}
+    
+#menu li {
+        display: inline-block;
+        font: bold 19px Papyrus, sans-serif;
+        list-style: none;
+        padding: 5px;
+}
+
+#section-content {
+    float: left;
+    margin: 20px;
+    width: 660px;
+}
+    #aside-column {
+    background: #CCCCCC;
+    border: 1px solid #000000;
+    float: left;
+    margin: 19px 0px;
+    padding: 19px;
+    width: 220px;
+}
+
+#pie {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #ee9191;
+}
+
+article{
+background: #eeeeee;
+border: 1px solid #000000;
+padding: 20px;
+margin-bottom: 15px;
+}
+article footer {
+text-align: right;
+}
+time {
+color: #999999;
+}
+figcaption {
+font: italic 14px verdana, sans-serif;
+}
+
+img {
+    border: 1px solid rgb(236, 175, 82);
+    border-radius: 4px;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+  
+  img:hover {
+    box-shadow: 0 0 2px 1px rgba(230, 64, 64, 0.5);
+  }
